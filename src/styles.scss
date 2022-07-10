@@ -5,7 +5,8 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background: #16a9c9;
+  //background: #16a9c9;
+  background: repeating-linear-gradient(45deg, #2a2a2a, #2a2a2a 30px, #16a9c9 30px, #16a9c9 60px);
 }
 
 /*@media (min-width: 1326px) {
@@ -13,3 +14,9 @@ body {
     background: linear-gradient(to bottom , #ff0000 50%, #16a9c9 50%);
   }
 }*/
+
+@media (max-width: 991px) {
+  body {
+    background: repeating-linear-gradient(45deg, #2a2a2a, #2a2a2a 30px, #16a9c9 20px, #16a9c9 40px);
+  }
+}
